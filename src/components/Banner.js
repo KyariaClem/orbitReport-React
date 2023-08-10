@@ -1,9 +1,11 @@
-
+import './styling.css';
 
 export default function Banner() {
     return (
         <div>
-            <h3>Orbit Report</h3>
+            <header>
+                <h1>Orbit Report</h1>
+                </header>
             <p>Click on the buttons to see the satellites in that orbit type</p>
         </div>
     )
